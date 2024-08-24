@@ -1,11 +1,11 @@
 class Pathways:
-    base_path = "https://stellarburgers.nomoreparties.site/api/"
-    order_create = base_path + "orders"
-    password_reset = base_path + "password-reset"
-    user_create = base_path + "auth/register"
-    user_login = base_path + "auth/login"
-    user_logout = base_path + "auth/logout"
-    token_refresh = base_path + "auth/token"
-    user_multipurpose = base_path + "auth/user" #DELETE, PATCH, GET
-    orders_fetch_all = base_path + "orders/all"
-    orders_fetch_by_user = base_path + "orders"
+    BASE_PATH = "https://stellarburgers.nomoreparties.site/api/"
+    ORDER_CREATE = BASE_PATH + "orders"
+    PASSWORD_RESET = BASE_PATH + "password-reset"
+    USER_CREATE = BASE_PATH + "auth/register"
+    USER_LOGIN = BASE_PATH + "auth/login"
+    USER_LOGOUT = BASE_PATH + "auth/logout"
+    TOKEN_REFRESH = BASE_PATH + "auth/token"
+    USER_MULTIPURPOSE = BASE_PATH + "auth/user"  # DELETE, PATCH, GET
+    ORDERS_FETCH_ALL = BASE_PATH + "orders/all"
+    ORDERS_FETCH_BY_USER = BASE_PATH + "orders"
