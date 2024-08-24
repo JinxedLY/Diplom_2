@@ -1,5 +1,6 @@
 class Pathways:
     BASE_PATH = "https://stellarburgers.nomoreparties.site/api/"
+    INGREDIENT_FETCH = BASE_PATH + "ingredients"
     ORDER_CREATE = BASE_PATH + "orders"
     PASSWORD_RESET = BASE_PATH + "password-reset"
     USER_CREATE = BASE_PATH + "auth/register"
