@@ -1,7 +1,7 @@
 import allure
 import pytest
 from stuff.methods import Methods
-from stuff.test_data import FakeHuman, APIResponses
+from stuff.test_data import APIResponses
 
 class TestUserLoginAPI:
     @allure.title("Проверка возможности логина с валидными данными")

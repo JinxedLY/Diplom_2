@@ -34,4 +34,8 @@ class APIResponses:
         "success": False,
         "message": "email or password are incorrect"
     }
+    USER_NO_AUTH = {
+        "success": False,
+        "message": "You should be authorised"
+    }
 
