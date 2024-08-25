@@ -6,7 +6,7 @@ class RealHumans:
         fake = Faker()
         email = fake.email()
         password = fake.password()
-        name = fake.firstname()
+        name = fake.first_name()
         payload = {
             "email": email,
             "password": password,
@@ -19,4 +19,14 @@ class FakeHuman:
         "email": "uniqueemail109@domain.com",
         "password": "uniquepassword109",
         "name": "uniquename109"
+    }
+
+class APIResponses:
+    USER_DUPLICATE = {
+        "message": "User already exists",
+        "success": False
+    }
+    USER_MALFORMED = {
+        "message": "Email, password and name are required fields",
+        "success": False
     }
