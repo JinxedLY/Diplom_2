@@ -1,5 +1,3 @@
-from types import new_class
-
 import allure
 import pytest
 import requests
