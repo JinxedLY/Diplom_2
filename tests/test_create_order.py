@@ -1,9 +1,8 @@
 import allure
-import pytest
 import requests
 from stuff.methods import Methods
 from stuff.pathways import Pathways
-from stuff.test_data import RealHumans, APIResponses, Ingredients
+from stuff.test_data import APIResponses, Ingredients
 
 class TestCreateOrderAPI:
     @allure.title("Проверка возможности создания заказа с авторизацией")
