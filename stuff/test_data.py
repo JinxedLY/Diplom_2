@@ -26,7 +26,12 @@ class APIResponses:
         "message": "User already exists",
         "success": False
     }
-    USER_MALFORMED = {
+    USER_MISSING = {
         "message": "Email, password and name are required fields",
         "success": False
     }
+    USER_MALFORMED = {
+        "success": False,
+        "message": "email or password are incorrect"
+    }
+

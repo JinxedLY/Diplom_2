@@ -31,4 +31,4 @@ class TestUserCreateAPI:
         del payload[missing_field]
         user = Methods.user_create(payload)
         assert user.status_code == 403
-        assert user.json() == APIResponses.USER_MALFORMED
+        assert user.json() == APIResponses.USER_MISSING
