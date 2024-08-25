@@ -8,5 +8,4 @@ class Pathways:
     USER_LOGOUT = BASE_PATH + "auth/logout"
     TOKEN_REFRESH = BASE_PATH + "auth/token"
     USER_MULTIPURPOSE = BASE_PATH + "auth/user"  # DELETE, PATCH, GET
-    ORDERS_FETCH_ALL = BASE_PATH + "orders/all"
     ORDERS_FETCH_BY_USER = BASE_PATH + "orders"
