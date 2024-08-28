@@ -1,0 +1,1 @@
+Не смог удалить юзера: 401 Client Error: Unauthorized for url: https://stellarburgers.nomoreparties.site/api/auth/login
