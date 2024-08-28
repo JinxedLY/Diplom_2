@@ -22,7 +22,7 @@ class Methods:
                 }
                 requests.delete(Pathways.USER_MULTIPURPOSE, headers = headers)
         except (requests.exceptions.RequestException, KeyError) as e:
-            print(f"Не смог удалить юзера: {e}")
+            pass
 
     @staticmethod
     @allure.step("Залогиниться под юзером")
@@ -43,7 +43,7 @@ class Methods:
                 }
                 requests.post(Pathways.USER_LOGOUT, json=payload)
         except (requests.exceptions.RequestException, KeyError) as e:
-            print(f"Не смог разлогиниться из юзера: {e}")
+            pass
 
     @staticmethod
     @allure.step("Изменить данные юзера")
@@ -59,4 +59,4 @@ class Methods:
                 response = requests.patch(Pathways.USER_MULTIPURPOSE, headers=headers, json=new_data)
                 return response
         except (requests.exceptions.RequestException, KeyError) as e:
-            print(f"Не смог обновить данные юзера: {e}")
+            pass

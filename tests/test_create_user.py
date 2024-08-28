@@ -1,7 +1,8 @@
 import allure
 import pytest
 from stuff.methods import Methods
-from stuff.test_data import RealHumans, APIResponses
+from stuff.test_data import APIResponses
+from stuff.helpers import RealHumans
 
 class TestUserCreateAPI:
     @allure.title("Проверка успешного создания юзера с рандомным набором данных")

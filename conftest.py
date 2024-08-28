@@ -1,5 +1,5 @@
 import pytest
-from stuff.test_data import RealHumans
+from stuff.helpers import RealHumans
 from stuff.methods import Methods
 
 
